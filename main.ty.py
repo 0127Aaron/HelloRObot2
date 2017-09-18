@@ -15,5 +15,5 @@ class Piggy(object):
             stop()
 
 
-P = Piggy()
+p = Piggy()
 p.cha_cha()
