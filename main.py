@@ -18,7 +18,7 @@ class Piggy(object):
         """drive fwd, stop if sensor detects obstacle"""
         fwd()
         while(True):
-            if us_distance(15) < 30:
+            if us_dist(15) < 30:
                 stop()
             time.sleep(.2)
 
@@ -39,4 +39,3 @@ class Piggy(object):
 
 
 p = Piggy()
-
